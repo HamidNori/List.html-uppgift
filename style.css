@@ -26,6 +26,11 @@ body{
     border: 5px solid;
     background-color: #e9d8a6;
     grid-column: 1/3;
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+
 }
 
 .sidebar {
@@ -42,23 +47,21 @@ body{
 }
 
 .lista1{
-    border-spacing: 0;
+    border-spacing:0;
     width: 50%;
     border: 4px solid black;
+    margin-bottom: 20px;
 }
 .lista2{
     border-spacing: 0;
     width: 50%;
     border:4px solid black;
-    margin-left: auto;
-    margin-top: -51.5% ;
 }
 
 thead {
     background-color: 001219;
     color: black;
 }
-
 tbody td:nth-child(1){
     text-align: center;
 }
@@ -83,5 +86,5 @@ tbody td:nth-child(3){
 }
 #rest:hover{
     background-color: blueviolet;
-    transition: ease-in;
+    transition: 0.3s ease-in;
 }
